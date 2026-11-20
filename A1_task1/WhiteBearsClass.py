@@ -5,8 +5,8 @@ class whiteBears(IAnimal):
 
     @property
     def objType(self) -> str:
-        return "white bears sound like "
+        return "white bears sound like"
     
     @property
     def say(self) -> str:
-        return "Roaring"
+        return "Growling"

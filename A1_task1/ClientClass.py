@@ -1,12 +1,20 @@
 from CalgaryZooClass import CalgaryZoo
 from TorontoZooClass import TorontoZoo
+from IZooClass import IZoo
 
-def client():
+class client():
+    def __init__(self):
+        self.__available_zoos = []
     
-    Toronto=TorontoZoo()
     
-    Toronto.startVisit()
-    Calgary=CalgaryZoo()
+    def addZoo(zoo : IZoo) -> None:
+        pass
     
-    Calgary.startVisit()
     
+    
+Toronto=TorontoZoo()
+    
+Toronto.startVisit()
+Calgary=CalgaryZoo()
+    
+Calgary.startVisit()

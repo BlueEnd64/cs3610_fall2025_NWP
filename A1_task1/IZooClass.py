@@ -26,13 +26,6 @@ class IZoo():
     def create_Animal() -> None:
         pass
     
-    
-    """
-    def startVisit(self) -> None:
-        self.create_Animal()
-        for zoosAnimal in self._animals:
-            print(zoosAnimal.say)
-    """
     def startVisit(self) -> None:
         animals= self.Animal() 
         zoosAnimals=list(map(AnimalFactory.create_Animal,animals))
