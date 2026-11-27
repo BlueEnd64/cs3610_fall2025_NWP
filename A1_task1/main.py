@@ -5,4 +5,10 @@ from ClientClass import client
 p1=client()
 
 zoo=p1.selectZoo('toronto')
+print(zoo.get_itinerary())
+zoo.show_animals()
+
+p2=client()
+zoo=p2.selectZoo('calgary')
+print(zoo.get_itinerary())
 zoo.show_animals()

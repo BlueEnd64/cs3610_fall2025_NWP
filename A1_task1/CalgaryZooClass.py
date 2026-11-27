@@ -1,4 +1,7 @@
 from IZooClass import IZoo
+from PenguinsClass import penguins
+from GrizzlyBearsClass import grizzlyBears
+from MooseClass import moose
 
 
 class CalgaryZoo(IZoo):
@@ -9,9 +12,9 @@ class CalgaryZoo(IZoo):
         self.__animals=['penguins','grizzly bears', 'moose']
     
     def create_animals(self) -> list:
-            return ['penguins','grizzly bears', 'moose']
+            return [penguins,grizzlyBears, moose]
     
     def get_itinerary(self):
-        return self.__Itinerary
+        return"\nWelcome to the Calgary Zoo! Our Itinerary: 1) Penguin Plunge. 2) Wild Canad \n"
     
     

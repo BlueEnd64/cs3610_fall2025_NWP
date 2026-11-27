@@ -16,7 +16,7 @@ class TorontoZoo(IZoo):
         return [lions, elephants ,penguins,polarBears]
     
     def get_itinerary(self):
-        return "Welcome to the Toronto Zoo! Our Itinerary: 1) African Savanna. 2) Tundra Trek \n"
+        return "\nWelcome to the Toronto Zoo! Our Itinerary: 1) African Savanna. 2) Tundra Trek \n"
     
     
                 
